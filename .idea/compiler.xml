@@ -9,7 +9,6 @@
         <module name="cliboot-backend" />
         <module name="cliboot-framework" />
         <module name="cliboot-frontend" />
-        <module name="clibootframework" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

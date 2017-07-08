@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/backend/cliboot-backend.iml" filepath="$PROJECT_DIR$/backend/cliboot-backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/frontend/cliboot-backend.iml" filepath="$PROJECT_DIR$/frontend/cliboot-backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/cliboot-framework.iml" filepath="$PROJECT_DIR$/backend/cliboot-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/frontend/cliboot-frontend.iml" filepath="$PROJECT_DIR$/frontend/cliboot-frontend.iml" />

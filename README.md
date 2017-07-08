@@ -1,2 +1,5 @@
-# cliboot
-combine spring boot with command line attempt
+# CliBoot
+Combine
+ - Spring-Boot
+ - Command-line input
+ - Angular frontend

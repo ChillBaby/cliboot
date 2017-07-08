@@ -15,6 +15,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+
     <!-- Add typical dependencies for a web application -->
     <dependencies>
         <dependency>
@@ -25,9 +26,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.chillbaby.cliboot</groupId>
+            <artifactId>cliboot-frontend</artifactId>
+            <version>${project.version}</version>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
     <!-- Package as an executable jar -->
     <build>
+        <resources>
+            <resource>
+                <directory>target/frontend</directory>
+                <targetPath>static</targetPath>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
