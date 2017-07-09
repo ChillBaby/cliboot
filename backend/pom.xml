@@ -35,12 +35,6 @@
     </dependencies>
     <!-- Package as an executable jar -->
     <build>
-        <resources>
-            <resource>
-                <directory>target/frontend</directory>
-                <targetPath>static</targetPath>
-            </resource>
-        </resources>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

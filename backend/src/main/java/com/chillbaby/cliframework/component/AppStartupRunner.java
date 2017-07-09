@@ -6,10 +6,6 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
-/**
- *
- * @author Gaurav Rai Mazra <a href="http://www.gauravbytes.com">Catch me</a>
- */
 @Component
 public class AppStartupRunner implements ApplicationRunner {
     private static final Logger logger = LoggerFactory.getLogger(AppStartupRunner.class);

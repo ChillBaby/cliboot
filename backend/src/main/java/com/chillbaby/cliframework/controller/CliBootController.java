@@ -1,14 +1,11 @@
 package com.chillbaby.cliframework.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- *
- * @author Gaurav Rai Mazra
- * <a href="http://www.gauravbytes.com">Catch me</a>
- */
 @RestController
+@RequestMapping("cliapi")
 public class CliBootController {
     @GetMapping
     public String welcomeMessage() {

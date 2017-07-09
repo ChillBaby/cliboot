@@ -8,6 +8,7 @@
     <artifactId>cliboot-frontend</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>frontend</name>
+    <packaging>jar</packaging>
 
     <parent>
         <groupId>com.chillbaby.cliboot</groupId>
@@ -16,6 +17,12 @@
     </parent>
 
     <build>
+        <resources>
+            <resource>
+                <directory>target/frontend</directory>
+                <targetPath>static</targetPath>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>com.github.eirslett</groupId>
